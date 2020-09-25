@@ -1,4 +1,21 @@
 // Assignment Code
+
+ // Global Variable
+var pwOptions = {
+  numChars: ""
+  alphaChars: ""
+  specChars: ""
+}
+
+function consolepasswd(arr) {
+
+
+  for (var i=0; i<arr.length; i++) {
+
+
+  }
+}
+
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input

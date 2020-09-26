@@ -18,9 +18,9 @@ function generatePassword() {
   
   while (true) {
 
-    var length = prompt (" How long do you want your password? Passwords are a minimum of 8 characters and a maximum of 128 characters. ")
+    var passwordLength = prompt (" How long do you want your password? Passwords are a minimum of 8 characters and a maximum of 128 characters. ");
 
-    if ( 8 <= length <= 128) break;
+    if (8 <= passwordLength <= 128) break;
     else continue;
 
   }
@@ -32,14 +32,14 @@ function generatePassword() {
 
   // Select and add random characters
   var UserPassword = "";
-  for (i=0; i , passwordLength; i++) {
+  for (i=0; i < passwordLength; i++); {
   
     // Choose a random character
-    var randomIndex = Math.floor(Math.random()* characterPool.length)
+    var randomIndex = Math.floor(Math.random()* characterPool.length);
 
     // characters selected by random index numbers from the character pool
 
-    var randomCharacter = characterPool [randomIndex]
+    var randomCharacter = characterPool [randomIndex];
 
     // random characters added to the password
 
